@@ -1,0 +1,18 @@
+#project{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    background-color: #0a0a0a;
+    min-height: 150vh;
+    padding: 100px 40px;
+}
+@media (max-width: 768px) {
+  #project{
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* height: auto; */
+    top: 25rem;
+  }
+  
+}
