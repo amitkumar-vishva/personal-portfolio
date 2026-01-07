@@ -17,6 +17,9 @@
 .exp-top h1 {
   font-size: 36px;
   margin-bottom: 10px;
+  background: linear-gradient(to right, #42b4cd, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .exp-top p {

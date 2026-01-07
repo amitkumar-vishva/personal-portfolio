@@ -25,7 +25,7 @@ function Contact() {
         <div className="contact-info">
           <div className="info-item">
             <FaMapMarkerAlt />
-            <span>New Delhi, India</span>
+            <span>khurja, India</span>
           </div>
 
           <div className="info-item">
@@ -35,7 +35,7 @@ function Contact() {
 
           <div className="info-item">
             <FaPhone />
-            <span>+91 98765 43210</span>
+            <span>+91 123456789</span>
           </div>
 
           {/* Social Icons */}

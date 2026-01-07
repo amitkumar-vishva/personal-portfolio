@@ -37,22 +37,23 @@ function About() {
 
       <div className="leftside-containt">
         <h1 className="person">My Journey</h1>
-        <p className="person-graph">I'm a passionate full-stack developer with over 5 years of experience<br/>
-          creating digital solutions for businesses around the world.<br/>
-          My journey started with basic HTML/CSS websites and has evolved into building<br/> 
-          complex web applications with modern frameworks.</p>
+        <p className="person-graph">I am a passionate Front-End Developer specializing in React.js.<br />
+          I started my journey with HTML and CSS and later moved to JavaScript<br/> and React to build modern, responsive web applications.<br /><br />
+          I have completed a 3-month internship at Vishva IT Solutions, <br/>where I gained hands-on experience in frontend development.</p>
+          {/* Box coding start now */}
         <div className="main-box">
-           <div class="info-box">
-              <h5 class="person">My Journey</h5>
-              <p class="person-graph">
-                I love creating unique solutions to complex problems with cutting-edge technologies.
+          {/* first box */}
+           <div className="info-box">
+              <h5 className="person">Passion</h5>
+              <p className="person-graph">
+                I love designing unique solutions to challenging problems with cutting-edge technologies.
               </p>
             </div>
 
-            <div class="info-box">
-              <h5 class="person">My Journey</h5>
-              <p class="person-graph">
-                I love creating unique solutions to complex problems with cutting-edge technologies.
+            <div className="info-box">
+              <h5 className="person">Goal</h5>
+              <p className="person-graph">
+                To build modern, responsive, and user-friendly web applications while constantly improving my frontend development skills.
               </p>
             </div>
         </div>

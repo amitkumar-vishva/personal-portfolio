@@ -2,24 +2,24 @@ import React from "react";
 import "./Experience.css";
 
 const experiences = [
+  // {
+  //   company: "Tech Solutions Ltd.",
+  //   role: "Frontend Developer",
+  //   duration: "Jan 2023 - Present",
+  //   details: [
+  //     "Developed responsive React applications",
+  //     "Collaborated with design and backend teams",
+  //     "Optimized performance and accessibility"
+  //   ]
+  // },
   {
-    company: "Tech Solutions Ltd.",
-    role: "Frontend Developer",
-    duration: "Jan 2023 - Present",
-    details: [
-      "Developed responsive React applications",
-      "Collaborated with design and backend teams",
-      "Optimized performance and accessibility"
-    ]
-  },
-  {
-    company: "Web Innovations",
+    company: " Front End Designer",
     role: "Intern",
-    duration: "Jun 2022 - Dec 2022",
+    duration: "1st September 2025  - to 1st December 2025 ",
     details: [
-      "Assisted in developing UI components",
-      "Maintained documentation for projects",
-      "Worked with APIs and backend integration"
+      "UI modification of existing project modules.",
+      "Designing and adding new front-end features as per project requirements.",
+      "Enhancing layout structure to ensure better usability and responsiveness."
     ]
   }
 ];

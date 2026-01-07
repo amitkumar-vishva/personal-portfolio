@@ -27,8 +27,7 @@ function Home() {
         </h2>
 
         <p>
-          I build modern, responsive and user-friendly websites<br/> using
-          React JS and modern web technologies.
+          I successfully completed a 3-month internship as a Front End Designer Intern<br/>at Vishva IT Solutions from September 1, 2025 to December 1, 2025, <br/>where I worked on building responsive user interfaces.
         </p>
 
         <div className="home-buttons">
@@ -41,11 +40,11 @@ function Home() {
               <FaFacebook />
             </a>
 
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/amit-kumar-2767993a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
               <FaLinkedin />
             </a>
 
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href="https://github.com/amitkumar-vishva" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
         </div>

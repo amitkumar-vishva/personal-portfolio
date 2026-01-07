@@ -33,7 +33,7 @@ function Skills(){
                 lang3="IntelliJ IDEA"
                 lang4="?"
             />  
-            <Card
+            {/* <Card
                 name={<>Office <br /> Skills</>}
                 title="Designing clean and user-friendly interfaces."
                 imagesUrl={image1}
@@ -41,7 +41,7 @@ function Skills(){
                 lang2="MS Excel"
                 lang3="PowerPoint"
                 lang4="Notepad"
-            />
+            /> */}
             <Card
                 name={<>Soft <br /> Skills</>}
                 title="Designing clean and user-friendly interfaces."
@@ -51,8 +51,8 @@ function Skills(){
                 lang3="Editor"
                 lang4="Problem Solving"
             />
-            {/* 👇 4th card automatically NEXT ROW me jayega */}
-            <Card
+            {/*  4th card automatically NEXT ROW me jayega */}
+            {/* <Card
                 name={<>Backend <br /> Basics</>}
                 title="Basic backend knowledge and API handling."
                 imagesUrl={image1}
@@ -60,7 +60,7 @@ function Skills(){
                 lang2="Express"
                 lang3="API"
                 lang4="Mongo"
-            />
+            /> */}
            </div>
         </div>
        
