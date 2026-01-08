@@ -5,6 +5,8 @@ import Projectcard from "../ProCard/Projectcard";
 import image1 from "../../assets/protfolio.jpg";
 import image2 from "../../assets/food.jpeg";
 import image3 from "../../assets/ai.avif";
+import image4 from "../../assets/vishva.png";
+import image5 from "../../assets/invest.avif";
 
 function Project() {
   return (
@@ -43,19 +45,19 @@ function Project() {
         />
 
         <Projectcard
-          imageUrl={image2}
-          name="Another Project"
-          title="Some project description here website"
-          tech={["React", "Node.js", "Express"]}
-          demoLink="#"
+          imageUrl={image4}
+          name="Vishva IT Solutions"
+          title="Worked on company’s official website during<br/> internship"
+          tech={["html", "css", "javaScript"]}
+          demoLink="https://vishvaitsolutions.in/"
           codeLink="#"
         />
 
         <Projectcard
-          imageUrl={image2}
-          name="Another Project"
-          title="Some project description here website"
-          tech={["React", "Node.js", "Express"]}
+          imageUrl={image5}
+          name="Investment Management Website"
+          title="Worked on an investment-based web application"
+          tech={["html ,css3 ,js(ES6+)", "php", "MySql"]}
           demoLink="#"
           codeLink="#"
         />
@@ -70,6 +72,15 @@ function Project() {
         />
         {/* Aur bhi projects add kar sakte ho */}
       </div>
+      <a
+          href="https://github.com/amitkumar-vishva"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-more-btn"
+        >
+          View More Projects
+      </a>
+
     </div>
   );
 }

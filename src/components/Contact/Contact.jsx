@@ -40,7 +40,7 @@ function Contact() {
 
           {/* Social Icons */}
           <div className="social-icons">
-            <a href="#"><FaGithub /></a>
+            <a href="https://github.com/amitkumar-vishva"><FaGithub /></a>
             <a href="#"><FaLinkedin /></a>
             <a href="#"><FaTwitter /></a>
           </div>
