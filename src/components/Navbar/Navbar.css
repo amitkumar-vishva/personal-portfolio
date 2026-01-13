@@ -1,0 +1,116 @@
+/* ===== Navbar Main ===== */
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #080808f3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* ===== Logo ===== */
+.logo {
+    font-size: 28px;
+    color: aqua;
+}
+.logo1 {
+    color: #d92070;
+}
+
+/* ===== Nav Links (Desktop) ===== */
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: aqua;
+}
+
+/* ===== Hamburger Icon ===== */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 1100; /* above nav-links */
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* ===== Hamburger → X Animation ===== */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* ===== Tablet ===== */
+@media (max-width: 992px) {
+    .navbar {
+        padding: 0 30px;
+    }
+
+    .nav-links {
+        gap: 18px;
+    }
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 768px) {
+
+    /* show hamburger */
+    .hamburger {
+        display: flex;
+    }
+
+    /* hide menu by default */
+    .nav-links {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: #1a1a1ae6;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+    }
+
+    /* open menu */
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .nav-links li a {
+        font-size: 22px;
+    }
+}

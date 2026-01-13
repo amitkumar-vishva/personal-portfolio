@@ -1,0 +1,104 @@
+#experience{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    background-color: #0a0a0a;
+    min-height: 100vh;
+    padding: 100px 40px;
+    position: relative;
+    top: 15rem;
+}
+
+.exp-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.exp-top h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #42b4cd, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.exp-top p {
+  font-size: 16px;
+  color: #aaa;
+}
+
+/* Timeline cards */
+.exp-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-card {
+  background: #111;
+  padding: 20px;
+  border-left: 4px solid #ff6a00;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.exp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.exp-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.exp-header h3 {
+  font-size: 18px;
+  color: #ff6a00;
+}
+
+.exp-header span {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.exp-duration {
+  font-style: italic;
+}
+
+/* List items */
+.exp-card ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.exp-card li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .exp-top h1 {
+    font-size: 28px;
+  }
+  .exp-card {
+    padding: 16px;
+  }
+  #experience{
+    position: relative;
+    top:28rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .exp-top h1 {
+    font-size: 24px;
+  }
+  .exp-card {
+    padding: 12px;
+  }
+}

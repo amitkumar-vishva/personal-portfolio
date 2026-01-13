@@ -1,0 +1,39 @@
+#project{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    background-color: #0a0a0a;
+    min-height: 150vh;
+    padding: 100px 40px;
+}
+/* ------------------ mobile ke liye ----------------- */
+@media (max-width: 768px) {
+  #project{
+    width: 100%;
+    height: auto;
+    position: relative;
+    height: auto;
+    top: 25rem;
+    overflow: hidden;
+  }
+}
+.view-more-btn {
+  position: relative;
+  top: 15rem;
+  left:33rem;
+  /* margin: 30px auto; */
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  /* background-color: #42b4cd; */
+  background-color: #0a0a0a;
+  color: #42b4cd;
+  border: 2px solid #42b4cd;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.view-more-btn:hover{
+  background-color:#42b4cd;
+  color: black;
+}

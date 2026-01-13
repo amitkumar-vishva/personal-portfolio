@@ -1,0 +1,103 @@
+#skills{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    background-color: #0a0a0a;
+    padding: 100px 40px;
+}
+.topcontainer {
+  max-width: 1000px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 6.5rem;
+}
+ .cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* MOBILE → 1 COLUMN */
+@media (max-width: 767px) {
+  .cards-container {
+    grid-template-columns: 1fr !important;
+    overflow: hidden;
+  }
+  #skills{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 25rem;
+    overflow: hidden;
+  }
+}
+
+/* TABLET → 2 COLUMNS */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* Heading */
+.topcontainer h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #42b4cd, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtitle / paragraph */
+.topcontainer p {
+  font-size: 20px;
+  color: #ccc;
+  /* line-height: 1.6; */
+  margin-top: -2rem;
+}
+/* ===== Responsive ===== */
+
+/* Tablet */
+@media (max-width: 992px) {
+    .topcontainer{
+        margin-right: 9rem;
+        margin: 0 0;
+    }
+  .topcontainer h1 {
+    font-size: 36px;
+  }
+
+  .topcontainer p {
+    font-size: 18px;
+    margin-top: -2rem;
+  }
+
+  .topcontainer::after {
+    width: 50px;
+    height: 3px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #about {
+    padding: 80px 20px;
+  }
+
+  .topcontainer h1 {
+    font-size: 28px;
+  }
+
+  .topcontainer p {
+    font-size: 16px;
+  }
+
+  .topcontainer::after {
+    width: 40px;
+    height: 3px;
+  }
+}
